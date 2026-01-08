@@ -10,7 +10,7 @@ public class ZeroRightShifting{
       }
       for(int i=0;i<n/2;i++){
         for(int j=arr.length-1;j>=n/2;j--){
-            if(arr[i]==0 && arr[j]>0){
+            if(arr[i]==0 && arr[j]!=0){
                 int temp=arr[i];
                 arr[i]=arr[j];
                 arr[j]=temp;
