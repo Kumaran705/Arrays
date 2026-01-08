@@ -9,7 +9,7 @@ public static void main(String args[]){
    }
 System.out.println("Enter the Element to Search :");
 int searchElement=sc.nextInt();
-for(int j=0;j<n;j++){
+for(int i=0;i<n;i++){
     if(searchElement==arr[i])
         System.out.println("Element "+arr[i]+" found at index : "+i);       
    }
