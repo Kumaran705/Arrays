@@ -1,3 +1,4 @@
+import java.util.*;
 public class UniqueElement{
   public static void mmain(String args[]){
       Scanner sc=new Scanner(System.in);
@@ -6,7 +7,7 @@ public class UniqueElement{
       for(int i=0;i<n;i++){
           arr[i]=sc.nextInt();
       }
-    int unique;
+    int unique=0;
     for(int num:arr){
         unique^=num;
     }
